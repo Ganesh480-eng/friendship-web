@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🔥 Friendship Zone Hopper - Test Your Squad!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Landing Page -->
+    <div id="landing" class="page active">
+        <div class="container">
+            <div class="hero-section">
+                <h1 class="neon-title">🧪 FRIENDSHIP ZONE HOPPER</h1>
+                <p class="tagline">Are you strangers or soulmates? Let's find out! 💀</p>
+                <div id="quotes" class="quotes-carousel">
+                    <p class="quote active"></p>
+                </div>
+                <button class="btn-start pulse-animation" onclick="startAdventure()">
+                    START THE MADNESS 🚀
+                </button>
+            </div>
+            <div class="floating-emojis-bg">
+                <span>😂</span><span>💀</span><span>🔥</span><span>👀</span>
+                <span>💯</span><span>✨</span><span>🤪</span><span>❤️</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mode Selection Page -->
+    <div id="modeSelect" class="page">
+        <div class="container">
+            <h2 class="page-heading">Choose Your Battle Mode</h2>
+            <p class="mode-subtitle">Flying solo or bringing your potential bestie?</p>
+            <div class="mode-cards">
+                <div class="mode-card" onclick="selectMode('solo')">
+                    <div class="mode-icon">🧍</div>
+                    <h3>Solo Mission</h3>
+                    <p>Test how well YOU know your friend</p>
+                    <div class="mode-badge">Single Player</div>
+                    <button class="btn-mode">Choose Solo</button>
+                </div>
+                <div class="mode-card" onclick="selectMode('duo')">
+                    <div class="mode-icon">👯</div>
+                    <h3>Duo Challenge</h3>
+                    <p>Both answer together - see if you match!</p>
+                    <div class="mode-badge duo">Co-op Mode</div>
+                    <button class="btn-mode">Choose Duo</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Quiz Page -->
+    <div id="quiz" class="page">
+        <div class="container">
+            <!-- Zone Progress Bar -->
+            <div class="zone-tracker">
+                <div class="zone-dot" data-zone="0">
+                    <span class="zone-emoji">😶</span>
+                    <span class="zone-label">Stranger</span>
+                </div>
+                <div class="zone-line"></div>
+                <div class="zone-dot" data-zone="1">
+                    <span class="zone-emoji">🙂</span>
+                    <span class="zone-label">Chill</span>
+                </div>
+                <div class="zone-line"></div>
+                <div class="zone-dot" data-zone="2">
+                    <span class="zone-emoji">🤝</span>
+                    <span class="zone-label">Besties</span>
+                </div>
+                <div class="zone-line"></div>
+                <div class="zone-dot" data-zone="3">
+                    <span class="zone-emoji">😳</span>
+                    <span class="zone-label">Crush</span>
+                </div>
+                <div class="zone-line"></div>
+                <div class="zone-dot" data-zone="4">
+                    <span class="zone-emoji">💞</span>
+                    <span class="zone-label">Ultimate</span>
+                </div>
+            </div>
+
+            <!-- Question Section -->
+            <div class="quiz-box">
+                <div class="zone-header">
+                    <h2 id="zoneTitle">Stranger Zone 😶</h2>
+                    <p id="zoneDesc">Barely know each other? Let's see...</p>
+                </div>
+                <div id="progress" class="progress-text">Zone 1/5 - Score 5+ to advance!</div>
+                
+                <form id="questions" class="questions-container">
+                    <!-- Questions will be populated by JS -->
+                </form>
+                
+                <button id="submitBtn" class="btn-submit" onclick="submitZone()">
+                    SUBMIT & HOP ZONES! ⚡
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Results/Zone Complete Page -->
+    <div id="results" class="page">
+        <div class="container">
+            <div class="result-card">
+                <h2 id="resultTitle" class="result-heading"></h2>
+                <div class="gif-container">
+                    <img id="resultGif" src="" alt="Result GIF">
+                </div>
+                <p id="resultDesc" class="result-description"></p>
+                <p id="resultTip" class="result-tip"></p>
+                
+                <div class="result-actions">
+                    <button id="nextBtn" class="btn-next" onclick="nextZone()">
+                        HOP TO NEXT ZONE! ➡️
+                    </button>
+                    <button class="btn-restart" onclick="restartAll()">
+                        🔄 New Adventure
+                    </button>
+                    <button class="btn-share" onclick="shareResult()">
+                        📱 Share Result
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
