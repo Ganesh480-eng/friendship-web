@@ -7,6 +7,11 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <audio id="bg-music" autoplay loop>
+  <source src="bg-music.mp3" type="audio/mp3">
+</audio>
+<button id="playMusicBtn">Start 🎵</button>
+
     <!-- Landing Page -->
     <div id="landing" class="page active">
         <div class="container">
@@ -130,3 +135,12 @@
     <script src="script.js"></script>
 </body>
 </html>
+<script>
+  const music = document.getElementById('bg-music');
+  const btn = document.getElementById('playMusicBtn');
+
+  btn.addEventListener('click', () => {
+    music.play();
+    btn.style.display = 'none'; // hide button after click
+  });
+</script>
