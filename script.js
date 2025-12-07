@@ -71,13 +71,13 @@ const zones = [
             title: '🚫 Stuck in Stranger Zone!',
             desc: 'Oof, you two are basically ghosts to each other! Time to actually say hi instead of stalking from afar. Fun fact: First impressions last 7 seconds—go make one!',
             tip: '💡 Tip: Wave with a weird face next time. Instant conversation starter!',
-            gif: 'https://media.giphy.com/media/3o7aDgf143NK0dN3Fe/giphy.gif'
+            gif: 'https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3MWRkcDN3ZDk3em93ZjZ5ZGxoc21tbHV1enBuOHNwOHd5MnAwYWRlYSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/IAULsIJ2gMlKB9VfKQ/giphy.gif'
         },
         passResult: {
             title: '✅ Stranger Zone CLEARED! 👋',
             desc: "You escaped the void! You're not total strangers anymore—congrats on knowing their name!",
             tip: '🎯 Level up: Learn their coffee order and blow their mind!',
-            gif: 'https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif'
+            gif: 'https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3eWNuMWhkb3FxZW9zNjZwOHBkMDQxenNubHFtdmhmOHVjdHVkejNteCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/NG3hz7soBpfuK8uQjP/giphy.gif'
         }
     },
     {
@@ -135,13 +135,13 @@ const zones = [
             title: '❌ Chill Denied—Back to Basics!',
             desc: "Still lukewarm? Not hot, not cold—just... there. Time to heat it up or freeze out!",
             tip: '💡 Tip: Share a Spotify playlist—music bonds brains faster than trauma!',
-            gif: 'https://media.giphy.com/media/26ufnwz3wDUllvH0U/giphy.gif'
+            gif: 'https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExN3czbGx3eDJvaGtleG96aDhubnh3ZzRicGNoNHlobGUyeGtscGk2NCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/HB5jPAoy51vVJXFMsR/giphy.gif'
         },
         passResult: {
             title: '✅ Chill Zone UNLOCKED! ❄️',
             desc: "You're comfy now—like old sneakers or a worn hoodie. Not exciting, but reliable!",
             tip: '🎯 Pro move: Plan a lazy movie night with zero effort required.',
-            gif: 'https://media.giphy.com/media/l0HlRnAWXxn0MhKLK/giphy.gif'
+            gif: 'https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3bHRrd3VveHlwZ2VpbmQxN3MwdjNjeHRrZTVocXI4c3h6bjZjcm44NiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/LLHkw7UnvY3Kw/giphy.gif'
         }
     },
     {
@@ -199,13 +199,13 @@ const zones = [
             title: '❌ Bestie Block—Try Harder!',
             desc: "Close, but no high-five yet. You're like... good friends, but not BEST friends. Ouch.",
             tip: '💡 Tip: Vulnerability builds trust—spill ONE tea and watch magic happen!',
-            gif: 'https://media.giphy.com/media/3o7TKsQ7Yx0gOxxpDS/giphy.gif'
+            gif: 'https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3OHhtcGdqaGZuN3M3NTk5ZnlhNmx6NGxwYWFtM3k4eWl5NTJydDdtZiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/RlHX3tUtX99TYXFDcR/giphy.gif'
         },
         passResult: {
             title: '✅ Besties BONDED! ✊',
             desc: "You're an unbreakable duo now—like Batman and Robin, but better dressed!",
             tip: '🎯 Epic idea: Start an annual roast battle tradition.',
-            gif: 'https://media.giphy.com/media/26BRv0KDVuJq2m0Cu/giphy.gif'
+            gif: 'https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdnd4NWV4Mm43ZjQzdGpqZ2RuMnR5cm90OXNweHBnZHJ4YWljODNpNSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/KK96qj5L1v3Rd21MUB/giphy.gif'
         }
     },
     {
@@ -263,13 +263,13 @@ const zones = [
             title: '❌ Crush CRUSHED—Friendzoned?',
             desc: "Ouch! Or relief? Hard to tell. Either way, you're not quite vibing on that level yet.",
             tip: '💡 Tip: Flirt with compliments—science says it works 60% of the time!',
-            gif: 'https://media.giphy.com/media/l41lG7dzr6qO9d0NO/giphy.gif'
+            gif: 'https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcTBobzlxYXJpbmx2ZjRsbmRwcGYxZGlqcTYzYzA2cHQ1cGo1NW5lNiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/K17vgdqhNCTOXq4zsV/giphy.gif'
         },
         passResult: {
             title: '✅ Crush Mode ACTIVATED! 💥',
             desc: "SPARKS! Is it love or just good lighting? Either way, someone's got butterflies!",
             tip: '🎯 Dare: Send a risky text. Fortune favors the bold!',
-            gif: 'https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif'
+            gif: 'https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbzBiYnFsbm1wYWtjd2pmYW9vZmU3dWVzcjVva2R4aWFmOWt0NHdvbCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/QF7AIcsPX9rTW/giphy.gif'
         }
     },
     {
@@ -327,13 +327,13 @@ const zones = [
             title: '❌ Ultimate FAIL—Retry Life!',
             desc: "Almost legends... ALMOST. You're close but not quite at god-tier friendship. Keep grinding!",
             tip: '💡 Tip: Shared goals create forever bonds. Start a cult together (kidding... or am I?)',
-            gif: 'https://media.giphy.com/media/26ufnwz3wDUllvH0U/giphy.gif'
+            gif: 'https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcTBobzlxYXJpbmx2ZjRsbmRwcGYxZGlqcTYzYzA2cHQ1cGo1NW5lNiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/wViS9n0RqN2/giphy.gif'
         },
         passResult: {
             title: '✅ ULTIMATE BOND FORGED! 🏆',
             desc: "YOU'RE ETERNAL—world beware! This is the kind of friendship movies are made about!",
             tip: '🎯 Legend status: Create a custom handshake that takes 5 minutes.',
-            gif: 'https://media.giphy.com/media/l0HlS9nIWnlnG3K8g/giphy.gif'
+            gif: 'https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3MDB5bnl4NHR6OW1kbjNoY2s4bm52bWZpY2F1ZWJuYWRjZzE4djh1eiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/ZUpZVrtEOSzu/giphy.gif'
         }
     }
 ];
